@@ -1,4 +1,3 @@
-__author__ = 'Fredi'
 __Filename__ = 'bot'
 __Creationdate__ = '09/10/2021'
 

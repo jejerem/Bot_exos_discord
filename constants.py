@@ -1,4 +1,3 @@
-__author__ = 'Fredi'
 __Filename__ = 'constants'
 __Creationdate__ = '10/10/2021'
 
