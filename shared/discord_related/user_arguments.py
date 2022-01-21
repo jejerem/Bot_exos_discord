@@ -1,7 +1,7 @@
 from functions import delete_spaces_from_list
 from private_files.private_constants import *
 from shared.constants import *
-from shared.context_actions import ContextActions
+from shared.discord_related.context_actions import ContextActions
 
 
 class UserArguments:

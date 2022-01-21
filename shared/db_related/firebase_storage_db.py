@@ -5,7 +5,7 @@ import aiohttp
 import firebase_admin
 from firebase_admin import firestore, credentials
 
-from shared.context_actions import ContextActions
+from shared.discord_related.context_actions import ContextActions
 
 
 class FirestoreStorage:

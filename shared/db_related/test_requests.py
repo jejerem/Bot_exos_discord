@@ -2,9 +2,8 @@ import pyrebase
 import firebase_admin
 from firebase_admin import firestore
 from firebase_admin import credentials
-from shared.firebase_storage_db import FirestoreStorage
+from shared.db_related.firebase_storage_db import FirestoreStorage
 from private_files.private_constants import *
-from shared.constants import *
 
 # We first initialize the Cloud.
 cred = credentials.Certificate("private_files/serviceAccountKey.json")

@@ -8,15 +8,12 @@ from discord.ext import commands
 import firebase_admin
 from firebase_admin import firestore, credentials
 import pyrebase
-import aiohttp
 # Built-in
-import io
 # Project files
-from firebase_storage_db import FirestoreStorage
+from shared.db_related.firebase_storage_db import FirestoreStorage
 from private_files.private_constants import *
-from functions import *
-from shared.context_actions import ContextActions
-from user_arguments import UserArguments
+from shared.discord_related.context_actions import ContextActions
+from shared.discord_related.user_arguments import UserArguments
 
 # command prefix users will use to make requests.
 bot = commands.Bot(command_prefix='!', help_command=None)
